@@ -7,27 +7,32 @@ public class helloTest {
 
 	@Test
 	public void testNoArg() {
-		fail("Not yet implemented");
+		String ans = "Hello Chris.";
+		assertEquals("No arg test failed", ans, main());
 	}
 	
 	@Test
 	public void testOneArg() {
-		fail("Not yet implemented");
+		String ans = "Hello Human.";
+		assertEquals("One arg test failed", ans, main("Human"));
 	}
 	
 	@Test
 	public void testOneArg2() {
-		fail("Not yet implemented");
+		String ans = "Hello People.";
+		assertEquals("One arg 2 test failed", ans, main("People"));
 	}
 	
 	@Test
 	public void testTwoArg() {
-		fail("Not yet implemented");
+		String ans = "Hello Person.  I am Computo.  How are you today?";
+		assertEquals("Two arg test failed", ans, main("Computo", "Person"));
 	}
 	
 	@Test
 	public void testTwoArg2() {
-		fail("Not yet implemented");
+		String ans = "Hello Minions.  I am Leader.  How are you today?";
+		assertEquals("Two arg 2 test failed", ans, main("Leader", "Minions"));
 	}
 
 }
