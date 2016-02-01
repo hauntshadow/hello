@@ -7,7 +7,7 @@
 
 public class hello {
 	public static void main(String[] args) {
-		printHello(args);
+		System.out.println(printHello(args));
 	}
 	public static String printHello(String[] args) {
 		if(args.length == 2)
